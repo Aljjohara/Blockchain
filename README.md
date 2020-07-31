@@ -47,7 +47,7 @@ To setup my custom testnet blockchain, I will go through the following steps:
 
              ./geth --datadir node1 --unlock"{node1 key}" --mine --rpc --allow-insecure-unlock
 - As we can see in the above command, we unlocked the first node by entering its address that we stored on a local text file (each node has a unique address)
-- I copied the full enode address here in order to start ndoe2 
+- I copied the full enode address here in order to run ndoe2 
 ![createaccount](screenshots/node1_1.png)
 ![createaccount](screenshots/node1_2.png)
 ![createaccount](screenshots/node1_3.png)
