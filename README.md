@@ -29,8 +29,8 @@ To setup my custom testnet blockchain, I will go through the following steps:
 - Next, I entered both node1 and node2 account addresses into the list of accounts to seal and into the list of accounts to pre-fund
 - To keep genesis cleaner, I selected 'no' for pre-funding the pre-compiled accounts
 
-![createaccount](screenshots/genesis_setup_1.png)
-    ![createaccount](screenshots/2_setup_genesis_block.png)
+![createaccount](screenshots/1_genesis_setup.png)
+![createaccount](screenshots/2_setup_genesis_block.png)
 - Next, I exported genesis configurations and saved the genesis 'crypto_project.json' in the current directory
     ![createaccount](screenshots/3_setup_genesis_block.png)
 ### Initiate the Nodes:
