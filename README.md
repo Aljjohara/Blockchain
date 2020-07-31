@@ -13,7 +13,7 @@ To setup my custom testnet blockchain, I will go through the following steps:
  4.  Start mining
 ### Create Node Accounts:
 - First, I navigated into the blockchain_tools directory
-- second, I created two accounts for two nodes for the network with a separate datadir for each using geth .
+- Second, I created two accounts for two nodes for the network with a separate datadir for each using geth .
 
           ./geth account new --datadir node1
 
@@ -28,6 +28,7 @@ To setup my custom testnet blockchain, I will go through the following steps:
 - I selected proof-of-authority consensus, and entered (555) as a chainID 
 - Next, I entered both node1 and node2 account addresses into the list of accounts to seal and into the list of accounts to pre-fund
 - To keep genesis cleaner, I selected 'no' for pre-funding the pre-compiled accounts
+
 ![createaccount](screenshots/genesis_setup_1.png)
     ![createaccount](screenshots/2_setup_genesis_block.png)
 - Next, I exported genesis configurations and saved the genesis 'crypto_project.json' in the current directory
@@ -83,7 +84,7 @@ To send a transaction, I have done the following:
 ![login](screenshots/login_.png)
 
 ### Sufficient Balance
-Here, I have enough balance to send a transaction  
+- Here, I have enough balance to send a transaction  
 ![login](screenshots/account_balance.png)
 
 ### Send Transaction
@@ -96,7 +97,7 @@ Here, I have enough balance to send a transaction
 ![login](screenshots/transaction_confirmation.png)
 
 
-- check transaction on terminal
+- Check transaction on terminal
 ![login](screenshots/terminal_transaction.png)
 
 
