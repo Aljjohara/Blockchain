@@ -109,5 +109,5 @@ To send a transaction, I have done the following:
 
 
 ### Dependencies:
-- MyCrypto tool 
+- MyCrypto 
 - Go Ethereum
