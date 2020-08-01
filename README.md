@@ -60,7 +60,7 @@ To setup my custom testnet blockchain, I will go through the following steps:
 
              ./geth --datadir node_2 --mine --port 30304 --bootnodes "{enode of node1}" --unlock "{node2 key}" --allow-insecure-unlock.
     - I unlocked  node2 (using --unlock flag) by first entering the node2 address (public key)
-    - I then entered the public key of node1 (enode address) that I copied from node1, that will allow the two nodes to communicate (using the --bootnodes flag)
+    - I then entered the enode address that I copied from node1, that will allow the two nodes to communicate (using the --bootnodes flag)
     - the --mine flag enables mining for this node 
     - the --rpc enables other nodes to communicate with this node and run commands using rpc (remote procedure call)
     - the --allow-insecure-unlock enables unlocking the private key for this node through http (not only https)
